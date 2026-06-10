@@ -1,0 +1,62 @@
+[
+  {
+    "id": "001",
+    "query": "Nike wala red kurti size M teen hazaar ke andar chahiye fast delivery",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "Nike",
+        "type": "BRAND"
+      },
+      {
+        "text": "red",
+        "type": "ATTRIBUTE"
+      },
+      {
+        "text": "kurti",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "size M",
+        "type": "SIZE"
+      },
+      {
+        "text": "teen hazaar ke andar",
+        "type": "PRICE_RANGE"
+      },
+      {
+        "text": "fast delivery",
+        "type": "DELIVERY_CONSTRAINT"
+      }
+    ]
+  },
+  {
+    "id": "002",
+    "query": "mera order kahan hai 3 din ho gaye abhi tak nahi aaya",
+    "intent": "TRACK",
+    "entities": []
+  },
+  {
+    "id": "003",
+    "query": "iPhone aur Samsung S24 mein kaun better hai camera ke liye",
+    "intent": "COMPARE",
+    "entities": [
+      {
+        "text": "iPhone",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "Samsung S24",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "Samsung",
+        "type": "BRAND"
+      },
+      {
+        "text": "camera",
+        "type": "ATTRIBUTE"
+      }
+    ]
+  }
+]
