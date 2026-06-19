@@ -120,52 +120,24 @@
     "id": "007",
     "query": "order number ORD12345 return karna hai",
     "intent": "RETURN",
-    "entities": [
-      {
-        "text": "ORD12345",
-        "type": "ORDER_ID"
-      }
-    ]
+    "entities": []
   },
   {
     "id": "008",
     "query": "jo shoes kal deliver hue the unhe return karna hai size fit nahi hai",
     "intent": "RETURN",
-    "entities": [
-      {
-        "text": "shoes",
-        "type": "PRODUCT"
-      },
-      {
-        "text": "size fit nahi hai",
-        "type": "RETURN_REASON"
-      }
-    ]
+    "entities": []
   },
   {
     "id": "009",
     "query": "is t shirt ko wapas karna hai color pasand nahi aaya",
     "intent": "RETURN",
-    "entities": [
-      {
-        "text": "t shirt",
-        "type": "PRODUCT"
-      },
-      {
-        "text": "color pasand nahi aaya",
-        "type": "RETURN_REASON"
-      }
-    ]
+    "entities": []
   },
   {
     "id": "010",
     "query": "mujhe refund chahiye aur product return karna hai",
     "intent": "RETURN",
-    "entities": [
-      {
-        "text": "refund",
-        "type": "ACTION"
-      }
-    ]
+    "entities": []
   }
 ]
