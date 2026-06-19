@@ -126,13 +126,23 @@
     "id": "008",
     "query": "jo shoes kal deliver hue the unhe return karna hai size fit nahi hai",
     "intent": "RETURN",
-    "entities": []
+    "entities": [
+      {
+        "text": "shoes",
+        "type": "PRODUCT"
+      }
+    ]
   },
   {
     "id": "009",
     "query": "is t shirt ko wapas karna hai color pasand nahi aaya",
     "intent": "RETURN",
-    "entities": []
+    "entities": [
+      {
+        "text": "t shirt",
+        "type": "PRODUCT"
+      }
+    ]
   },
   {
     "id": "010",
