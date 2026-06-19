@@ -58,5 +58,114 @@
         "type": "ATTRIBUTE"
       }
     ]
+  },
+    {
+    "id": "004",
+    "query": "yeh Nike red kurti size M wali order kar do",
+    "intent": "BUY",
+    "entities": [
+      {
+        "text": "Nike",
+        "type": "BRAND"
+      },
+      {
+        "text": "red",
+        "type": "ATTRIBUTE"
+      },
+      {
+        "text": "kurti",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "M",
+        "type": "SIZE"
+      }
+    ]
+  },
+  {
+    "id": "005",
+    "query": "Samsung S24 abhi buy karna hai",
+    "intent": "BUY",
+    "entities": [
+      {
+        "text": "Samsung S24",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "Samsung",
+        "type": "BRAND"
+      }
+    ]
+  },
+  {
+    "id": "006",
+    "query": "mujhe yeh blue jeans waist 32 mein purchase karni hai",
+    "intent": "BUY",
+    "entities": [
+      {
+        "text": "blue",
+        "type": "ATTRIBUTE"
+      },
+      {
+        "text": "jeans",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "32",
+        "type": "SIZE"
+      }
+    ]
+  },
+  {
+    "id": "007",
+    "query": "order number ORD12345 return karna hai",
+    "intent": "RETURN",
+    "entities": [
+      {
+        "text": "ORD12345",
+        "type": "ORDER_ID"
+      }
+    ]
+  },
+  {
+    "id": "008",
+    "query": "jo shoes kal deliver hue the unhe return karna hai size fit nahi hai",
+    "intent": "RETURN",
+    "entities": [
+      {
+        "text": "shoes",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "size fit nahi hai",
+        "type": "RETURN_REASON"
+      }
+    ]
+  },
+  {
+    "id": "009",
+    "query": "is t shirt ko wapas karna hai color pasand nahi aaya",
+    "intent": "RETURN",
+    "entities": [
+      {
+        "text": "t shirt",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "color pasand nahi aaya",
+        "type": "RETURN_REASON"
+      }
+    ]
+  },
+  {
+    "id": "010",
+    "query": "mujhe refund chahiye aur product return karna hai",
+    "intent": "RETURN",
+    "entities": [
+      {
+        "text": "refund",
+        "type": "ACTION"
+      }
+    ]
   }
 ]
