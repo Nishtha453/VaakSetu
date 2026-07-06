@@ -149,5 +149,244 @@
     "query": "mujhe refund chahiye aur product return karna hai",
     "intent": "RETURN",
     "entities": []
+  },
+    {
+    "id": "011",
+    "query": "Adidas ke white sneakers size 9 paanch hazaar ke andar dikhaiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "Adidas",
+        "type": "BRAND"
+      },
+      {
+        "text": "white",
+        "type": "ATTRIBUTE"
+      },
+      {
+        "text": "sneakers",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "size 9",
+        "type": "SIZE"
+      },
+      {
+        "text": "paanch hazaar ke andar",
+        "type": "PRICE_RANGE"
+      }
+    ]
+  },
+  {
+    "id": "012",
+    "query": "Puma aur Adidas running shoes mein kaunsa better hai",
+    "intent": "COMPARE",
+    "entities": [
+      {
+        "text": "Puma",
+        "type": "BRAND"
+      },
+      {
+        "text": "Adidas",
+        "type": "BRAND"
+      },
+      {
+        "text": "running shoes",
+        "type": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "id": "013",
+    "query": "mera parcel abhi kis city mein hai",
+    "intent": "TRACK",
+    "entities": []
+  },
+  {
+    "id": "014",
+    "query": "yeh Adidas sneakers abhi order kar do",
+    "intent": "BUY",
+    "entities": [
+      {
+        "text": "Adidas",
+        "type": "BRAND"
+      },
+      {
+        "text": "sneakers",
+        "type": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "id": "015",
+    "query": "black hoodie size L do hazaar ke andar chahiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "black",
+        "type": "ATTRIBUTE"
+      },
+      {
+        "text": "hoodie",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "size L",
+        "type": "SIZE"
+      },
+      {
+        "text": "do hazaar ke andar",
+        "type": "PRICE_RANGE"
+      }
+    ]
+  },
+  {
+    "id": "016",
+    "query": "OnePlus 13 aur iPhone 16 mein battery kiski better hai",
+    "intent": "COMPARE",
+    "entities": [
+      {
+        "text": "OnePlus 16",
+        "type": "BRAND"
+      },
+      {
+        "text": "iPhone ",
+        "type": "BRAND"
+      },
+      {
+        "text": "battery",
+        "type": "ATTRIBUTE"
+      }
+    ]
+  },
+  {
+    "id": "017",
+    "query": "yeh hoodie purchase karni hai size L",
+    "intent": "BUY",
+    "entities": [
+      {
+        "text": "hoodie",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "L",
+        "type": "SIZE"
+      }
+    ]
+  },
+  {
+    "id": "018",
+    "query": "order number ORD98765 cancel karna hai aur refund chahiye",
+    "intent": "RETURN",
+    "entities": []
+  },
+  {
+    "id": "019",
+    "query": "mujhe kal tak delivery chahiye laptop bag black color mein",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "laptop bag",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "black",
+        "type": "ATTRIBUTE"
+      },
+      {
+        "text": "kal tak delivery",
+        "type": "DELIVERY_CONSTRAINT"
+      }
+    ]
+  },
+  {
+    "id": "020",
+    "query": "jo smartwatch aayi thi uska replacement chahiye display kharab hai",
+    "intent": "RETURN",
+    "entities": [
+      {
+        "text": "smartwatch",
+        "type": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "id": "021",
+    "query": "Realme aur Redmi mein gaming ke liye kaunsa phone accha hai",
+    "intent": "COMPARE",
+    "entities": [
+      {
+        "text": "Realme",
+        "type": "BRAND"
+      },
+      {
+        "text": "Redmi",
+        "type": "BRAND"
+      },
+      {
+        "text": "gaming",
+        "type": "ATTRIBUTE"
+      }
+    ]
+  },
+  {
+    "id": "022",
+    "query": "Apple AirPods Pro abhi kharidna hai",
+    "intent": "BUY",
+    "entities": [
+      {
+        "text": "Apple AirPods Pro",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "Apple",
+        "type": "BRAND"
+      }
+    ]
+  },
+  {
+    "id": "023",
+    "query": "meri delivery expected date kya hai",
+    "intent": "TRACK",
+    "entities": []
+  },
+  {
+    "id": "024",
+    "query": "Levis blue jeans waist 34 teen hazaar ke andar dikhaiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "Levis",
+        "type": "BRAND"
+      },
+      {
+        "text": "blue",
+        "type": "ATTRIBUTE"
+      },
+      {
+        "text": "jeans",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "waist 34",
+        "type": "SIZE"
+      },
+      {
+        "text": "teen hazaar ke andar",
+        "type": "PRICE_RANGE"
+      }
+    ]
+  },
+  {
+    "id": "025",
+    "query": "yeh jeans return karni hai size bada aa gaya",
+    "intent": "RETURN",
+    "entities": [
+      {
+        "text": "jeans",
+        "type": "PRODUCT"
+      }
+    ]
   }
+    
 ]
