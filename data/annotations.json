@@ -246,11 +246,19 @@
     "intent": "COMPARE",
     "entities": [
       {
-        "text": "OnePlus 16",
+        "text": "OnePlus 13",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "iPhone 16",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "OnePlus",
         "type": "BRAND"
       },
       {
-        "text": "iPhone ",
+        "text": "iPhone",
         "type": "BRAND"
       },
       {
@@ -384,6 +392,681 @@
     "entities": [
       {
         "text": "jeans",
+        "type": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "id": "026",
+    "query": "Allen Solly blue shirt size L do hazaar ke andar chahiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "Allen Solly",
+        "type": "BRAND"
+      },
+      {
+        "text": "blue",
+        "type": "ATTRIBUTE"
+      },
+      {
+        "text": "shirt",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "size L",
+        "type": "SIZE"
+      },
+      {
+        "text": "do hazaar ke andar",
+        "type": "PRICE_RANGE"
+      }
+    ]
+  },
+  {
+    "id": "027",
+    "query": "Redmi phone ek hazaar ke EMI mein dikhaiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "Redmi",
+        "type": "BRAND"
+      },
+      {
+        "text": "phone",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "ek hazaar ke EMI",
+        "type": "PRICE_RANGE"
+      }
+    ]
+  },
+  {
+    "id": "028",
+    "query": "Prestige pressure cooker paanch hazaar ke andar chahiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "Prestige",
+        "type": "BRAND"
+      },
+      {
+        "text": "pressure cooker",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "paanch hazaar ke andar",
+        "type": "PRICE_RANGE"
+      }
+    ]
+  },
+  {
+    "id": "029",
+    "query": "Wildcraft backpack black color teen hazaar ke andar dikhaiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "Wildcraft",
+        "type": "BRAND"
+      },
+      {
+        "text": "backpack",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "black",
+        "type": "ATTRIBUTE"
+      },
+      {
+        "text": "teen hazaar ke andar",
+        "type": "PRICE_RANGE"
+      }
+    ]
+  },
+  {
+    "id": "030",
+    "query": "Philips mixer grinder do hazaar ke andar chahiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "Philips",
+        "type": "BRAND"
+      },
+      {
+        "text": "mixer grinder",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "do hazaar ke andar",
+        "type": "PRICE_RANGE"
+      }
+    ]
+  },
+  {
+    "id": "031",
+    "query": "Bata formal shoes size 8 teen hazaar ke andar dikhaiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "Bata",
+        "type": "BRAND"
+      },
+      {
+        "text": "formal shoes",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "size 8",
+        "type": "SIZE"
+      },
+      {
+        "text": "teen hazaar ke andar",
+        "type": "PRICE_RANGE"
+      }
+    ]
+  },
+  {
+    "id": "032",
+    "query": "Samsung tablet aath hazaar ke andar chahiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "Samsung",
+        "type": "BRAND"
+      },
+      {
+        "text": "tablet",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "aath hazaar ke andar",
+        "type": "PRICE_RANGE"
+      }
+    ]
+  },
+  {
+    "id": "033",
+    "query": "Milton water bottle ek hazaar ke andar dikhaiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "Milton",
+        "type": "BRAND"
+      },
+      {
+        "text": "water bottle",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "ek hazaar ke andar",
+        "type": "PRICE_RANGE"
+      }
+    ]
+  },
+  {
+    "id": "034",
+    "query": "Harry Potter book set do hazaar ke andar chahiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "Harry Potter",
+        "type": "BRAND"
+      },
+      {
+        "text": "book set",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "do hazaar ke andar",
+        "type": "PRICE_RANGE"
+      }
+    ]
+  },
+  {
+    "id": "035",
+    "query": "Noise smartwatch black color paanch hazaar ke andar dikhaiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "Noise",
+        "type": "BRAND"
+      },
+      {
+        "text": "smartwatch",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "black",
+        "type": "ATTRIBUTE"
+      },
+      {
+        "text": "paanch hazaar ke andar",
+        "type": "PRICE_RANGE"
+      }
+    ]
+  },
+  {
+    "id": "036",
+    "query": "US Polo t shirt white size M do hazaar ke andar chahiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "US Polo",
+        "type": "BRAND"
+      },
+      {
+        "text": "t shirt",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "white",
+        "type": "ATTRIBUTE"
+      },
+      {
+        "text": "size M",
+        "type": "SIZE"
+      },
+      {
+        "text": "do hazaar ke andar",
+        "type": "PRICE_RANGE"
+      }
+    ]
+  },
+  {
+    "id": "037",
+    "query": "boAt bluetooth speaker teen hazaar ke andar dikhaiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "boAt",
+        "type": "BRAND"
+      },
+      {
+        "text": "bluetooth speaker",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "teen hazaar ke andar",
+        "type": "PRICE_RANGE"
+      }
+    ]
+  },
+  {
+    "id": "038",
+    "query": "Dell monitor das hazaar ke andar chahiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "Dell",
+        "type": "BRAND"
+      },
+      {
+        "text": "monitor",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "das hazaar ke andar",
+        "type": "PRICE_RANGE"
+      }
+    ]
+  },
+  {
+    "id": "039",
+    "query": "Nike running shoes size 10 aath hazaar ke andar chahiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "Nike",
+        "type": "BRAND"
+      },
+      {
+        "text": "running shoes",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "size 10",
+        "type": "SIZE"
+      },
+      {
+        "text": "aath hazaar ke andar",
+        "type": "PRICE_RANGE"
+      }
+    ]
+  },
+  {
+    "id": "040",
+    "query": "Canon printer das hazaar ke andar dikhaiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "Canon",
+        "type": "BRAND"
+      },
+      {
+        "text": "printer",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "das hazaar ke andar",
+        "type": "PRICE_RANGE"
+      }
+    ]
+  },
+  {
+    "id": "041",
+    "query": "Fastrack wallet brown color ek hazaar ke andar chahiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "Fastrack",
+        "type": "BRAND"
+      },
+      {
+        "text": "wallet",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "brown",
+        "type": "ATTRIBUTE"
+      },
+      {
+        "text": "ek hazaar ke andar",
+        "type": "PRICE_RANGE"
+      }
+    ]
+  },
+  {
+    "id": "042",
+    "query": "LG microwave fast delivery ke saath chahiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "LG",
+        "type": "BRAND"
+      },
+      {
+        "text": "microwave",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "fast delivery",
+        "type": "DELIVERY_CONSTRAINT"
+      }
+    ]
+  },
+  {
+    "id": "043",
+    "query": "brown handbag kal tak delivery chahiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "brown",
+        "type": "ATTRIBUTE"
+      },
+      {
+        "text": "handbag",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "kal tak delivery",
+        "type": "DELIVERY_CONSTRAINT"
+      }
+    ]
+  },
+  {
+    "id": "044",
+    "query": "wireless keyboard black color dikhaiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "wireless keyboard",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "black",
+        "type": "ATTRIBUTE"
+      }
+    ]
+  },
+  {
+    "id": "045",
+    "query": "cotton bedsheet king size chahiye",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text": "cotton",
+        "type": "ATTRIBUTE"
+      },
+      {
+        "text": "bedsheet",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "king size",
+        "type": "SIZE"
+      }
+    ]
+  },
+  {
+    "id": "046",
+    "query": "yeh Redmi phone order kar do",
+    "intent": "BUY",
+    "entities": [
+      {
+        "text": "Redmi",
+        "type": "BRAND"
+      },
+      {
+        "text": "phone",
+        "type": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "id": "047",
+    "query": "Prestige pressure cooker abhi purchase karna hai",
+    "intent": "BUY",
+    "entities": [
+      {
+        "text": "Prestige",
+        "type": "BRAND"
+      },
+      {
+        "text": "pressure cooker",
+        "type": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "id": "048",
+    "query": "Noise smartwatch buy karni hai",
+    "intent": "BUY",
+    "entities": [
+      {
+        "text": "Noise",
+        "type": "BRAND"
+      },
+      {
+        "text": "smartwatch",
+        "type": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "id": "049",
+    "query": "Dell monitor abhi order kar do",
+    "intent": "BUY",
+    "entities": [
+      {
+        "text": "Dell",
+        "type": "BRAND"
+      },
+      {
+        "text": "monitor",
+        "type": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "id": "050",
+    "query": "Nike running shoes size 10 purchase karne hain",
+    "intent": "BUY",
+    "entities": [
+      {
+        "text": "Nike",
+        "type": "BRAND"
+      },
+      {
+        "text": "running shoes",
+        "type": "PRODUCT"
+      },
+      {
+        "text": "size 10",
+        "type": "SIZE"
+      }
+    ]
+  },
+  {
+    "id": "051",
+    "query": "mera order out for delivery hua kya",
+    "intent": "TRACK",
+    "entities": []
+  },
+  {
+    "id": "052",
+    "query": "tracking status update batao",
+    "intent": "TRACK",
+    "entities": []
+  },
+  {
+    "id": "053",
+    "query": "parcel kab deliver hoga",
+    "intent": "TRACK",
+    "entities": []
+  },
+  {
+    "id": "054",
+    "query": "order abhi warehouse se nikla ya nahi",
+    "intent": "TRACK",
+    "entities": []
+  },
+  {
+    "id": "055",
+    "query": "meri shipment delay kyun ho rahi hai",
+    "intent": "TRACK",
+    "entities": []
+  },
+  {
+    "id": "056",
+    "query": "yeh backpack return karna hai zip kharab hai",
+    "intent": "RETURN",
+    "entities": [
+      {
+        "text": "backpack",
+        "type": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "id": "057",
+    "query": "printer return karna hai kaam nahi kar raha",
+    "intent": "RETURN",
+    "entities": [
+      {
+        "text": "printer",
+        "type": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "id": "058",
+    "query": "headphones replacement chahiye left side nahi chal rahi",
+    "intent": "RETURN",
+    "entities": [
+      {
+        "text": "headphones",
+        "type": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "id": "059",
+    "query": "shirt return karni hai size fit nahi hua",
+    "intent": "RETURN",
+    "entities": [
+      {
+        "text": "shirt",
+        "type": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "id": "060",
+    "query": "microwave refund chahiye defective nikla",
+    "intent": "RETURN",
+    "entities": [
+      {
+        "text": "microwave",
+        "type": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "id": "061",
+    "query": "Samsung aur OnePlus mein camera better kiska hai",
+    "intent": "COMPARE",
+    "entities": [
+      {
+        "text": "Samsung",
+        "type": "BRAND"
+      },
+      {
+        "text": "OnePlus",
+        "type": "BRAND"
+      },
+      {
+        "text": "camera",
+        "type": "ATTRIBUTE"
+      }
+    ]
+  },
+  {
+    "id": "062",
+    "query": "Nike aur Puma running shoes mein kaunsa comfortable hai",
+    "intent": "COMPARE",
+    "entities": [
+      {
+        "text": "Nike",
+        "type": "BRAND"
+      },
+      {
+        "text": "Puma",
+        "type": "BRAND"
+      },
+      {
+        "text": "running shoes",
+        "type": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "id": "063",
+    "query": "Philips aur Havells mixer grinder mein kaunsa better hai",
+    "intent": "COMPARE",
+    "entities": [
+      {
+        "text": "Philips",
+        "type": "BRAND"
+      },
+      {
+        "text": "Havells",
+        "type": "BRAND"
+      },
+      {
+        "text": "mixer grinder",
+        "type": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "id": "064",
+    "query": "Dell aur HP laptop mein battery better kiski hai",
+    "intent": "COMPARE",
+    "entities": [
+      {
+        "text": "Dell",
+        "type": "BRAND"
+      },
+      {
+        "text": "HP",
+        "type": "BRAND"
+      },
+      {
+        "text": "battery",
+        "type": "ATTRIBUTE"
+      }
+    ]
+  },
+  {
+    "id": "065",
+    "query": "boAt aur JBL bluetooth speaker mein sound better kiska hai",
+    "intent": "COMPARE",
+    "entities": [
+      {
+        "text": "boAt",
+        "type": "BRAND"
+      },
+      {
+        "text": "JBL",
+        "type": "BRAND"
+      },
+      {
+        "text": "sound",
+        "type": "ATTRIBUTE"
+      },
+      {
+        "text": "bluetooth speaker",
         "type": "PRODUCT"
       }
     ]
