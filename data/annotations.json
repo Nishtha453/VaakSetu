@@ -1070,6 +1070,565 @@
         "type": "PRODUCT"
       }
     ]
-  }
-    
+  },
+   {
+    "id": "066",
+    "query": "Campus sports shoes size 8 do hazaar se teen hazaar tak dikhao",
+    "intent": "SEARCH",
+    "entities": [
+      {
+        "text":"Campus","type":"BRAND"
+      },
+      {
+        "text":"sports shoes","type":"PRODUCT"
+      },
+      {
+        "text":"size 8","type":"SIZE"
+      },
+      {
+        "text":"do hazaar se teen hazaar tak","type":"PRICE_RANGE"
+      }
+    ]
+  },
+  {
+    "id": "067",
+    "query": "Skybags trolley bag teen hazaar se paanch hazaar tak show karo",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Skybags","type":"BRAND"},
+      {"text":"trolley bag","type":"PRODUCT"},
+      {"text":"teen hazaar se paanch hazaar tak","type":"PRICE_RANGE"}
+    ]
+  },
+  {
+    "id": "068",
+    "query": "Casio digital watch do hazaar se chaar hazaar tak milega",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Casio","type":"BRAND"},
+      {"text":"digital watch","type":"PRODUCT"},
+      {"text":"do hazaar se chaar hazaar tak","type":"PRICE_RANGE"}
+    ]
+  },
+  {
+    "id": "069",
+    "query": "Hawkins frying pan kal tak delivery chahiye",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Hawkins","type":"BRAND"},
+      {"text":"frying pan","type":"PRODUCT"},
+      {"text":"kal tak delivery","type":"DELIVERY_CONSTRAINT"}
+    ]
+  },
+  {
+    "id": "070",
+    "query": "Acer keyboard ek hazaar se do hazaar tak bata do",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Acer","type":"BRAND"},
+      {"text":"keyboard","type":"PRODUCT"},
+      {"text":"ek hazaar se do hazaar tak","type":"PRICE_RANGE"}
+    ]
+  },
+  {
+    "id": "071",
+    "query": "Van Heusen blazer size 40 paanch hazaar se aath hazaar tak dikhao",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Van Heusen","type":"BRAND"},
+      {"text":"blazer","type":"PRODUCT"},
+      {"text":"size 40","type":"SIZE"},
+      {"text":"paanch hazaar se aath hazaar tak","type":"PRICE_RANGE"}
+    ]
+  },
+  {
+    "id": "072",
+    "query": "Honor tablet das hazaar se pandrah hazaar tak show karo",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Honor","type":"BRAND"},
+      {"text":"tablet","type":"PRODUCT"},
+      {"text":"das hazaar se pandrah hazaar tak","type":"PRICE_RANGE"}
+    ]
+  },
+  {
+    "id": "073",
+    "query": "Morphy Richards toaster fast delivery ke saath milega",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Morphy Richards","type":"BRAND"},
+      {"text":"toaster","type":"PRODUCT"},
+      {"text":"fast delivery","type":"DELIVERY_CONSTRAINT"}
+    ]
+  },
+  {
+    "id": "074",
+    "query": "Woodland sandals size 9 teen hazaar se chaar hazaar tak dikhao",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Woodland","type":"BRAND"},
+      {"text":"sandals","type":"PRODUCT"},
+      {"text":"size 9","type":"SIZE"},
+      {"text":"teen hazaar se chaar hazaar tak","type":"PRICE_RANGE"}
+    ]
+  },
+  {
+    "id": "075",
+    "query": "American Tourister duffle bag do hazaar se chaar hazaar tak lena hai",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"American Tourister","type":"BRAND"},
+      {"text":"duffle bag","type":"PRODUCT"},
+      {"text":"do hazaar se chaar hazaar tak","type":"PRICE_RANGE"}
+    ]
+  },
+  {
+    "id": "076",
+    "query": "Logitech mouse kal shaam tak delivery chahiye",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Logitech","type":"BRAND"},
+      {"text":"mouse","type":"PRODUCT"},
+      {"text":"kal shaam tak delivery","type":"DELIVERY_CONSTRAINT"}
+    ]
+  },
+  {
+    "id": "077",
+    "query": "Peter England formal shirt size M ek hazaar se do hazaar tak dikhao",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Peter England","type":"BRAND"},
+      {"text":"formal shirt","type":"PRODUCT"},
+      {"text":"size M","type":"SIZE"},
+      {"text":"ek hazaar se do hazaar tak","type":"PRICE_RANGE"}
+    ]
+  },
+  {
+    "id": "078",
+    "query": "Milton lunch box kal tak delivery milegi",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Milton","type":"BRAND"},
+      {"text":"lunch box","type":"PRODUCT"},
+      {"text":"kal tak delivery","type":"DELIVERY_CONSTRAINT"}
+    ]
+  },
+  {
+    "id": "079",
+    "query": "Asus router teen hazaar se paanch hazaar tak bata do",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Asus","type":"BRAND"},
+      {"text":"router","type":"PRODUCT"},
+      {"text":"teen hazaar se paanch hazaar tak","type":"PRICE_RANGE"}
+    ]
+  },
+  {
+    "id": "080",
+    "query": "Titan wallet ek hazaar se do hazaar tak show karo",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Titan","type":"BRAND"},
+      {"text":"wallet","type":"PRODUCT"},
+      {"text":"ek hazaar se do hazaar tak","type":"PRICE_RANGE"}
+    ]
+  },
+  {
+    "id": "081",
+    "query": "yeh Campus sports shoes order kar do",
+    "intent": "BUY",
+    "entities": [
+      {"text":"Campus","type":"BRAND"},
+      {"text":"sports shoes","type":"PRODUCT"}
+    ]
+  },
+  {
+    "id": "082",
+    "query": "Honor tablet abhi buy karna hai",
+    "intent": "BUY",
+    "entities": [
+      {"text":"Honor tablet","type":"PRODUCT"},
+      {"text":"Honor","type":"BRAND"}
+    ]
+  },
+  {
+    "id": "083",
+    "query": "Peter England shirt purchase karni hai",
+    "intent": "BUY",
+    "entities": [
+      {"text":"Peter England","type":"BRAND"},
+      {"text":"shirt","type":"PRODUCT"}
+    ]
+  },
+  {
+    "id": "084",
+    "query": "American Tourister bag lena hai",
+    "intent": "BUY",
+    "entities": [
+      {"text":"American Tourister","type":"BRAND"},
+      {"text":"bag","type":"PRODUCT"}
+    ]
+  },
+  {
+    "id": "085",
+    "query": "Logitech mouse order kar do",
+    "intent": "BUY",
+    "entities": [
+      {"text":"Logitech","type":"BRAND"},
+      {"text":"mouse","type":"PRODUCT"}
+    ]
+  },
+  {
+    "id": "086",
+    "query": "mera courier abhi kis hub mein hai",
+    "intent": "TRACK",
+    "entities": []
+  },
+  {
+    "id": "087",
+    "query": "delivery boy assign hua kya",
+    "intent": "TRACK",
+    "entities": []
+  },
+  {
+    "id": "088",
+    "query": "parcel aaj pahunch jayega kya",
+    "intent": "TRACK",
+    "entities": []
+  },
+  {
+    "id": "089",
+    "query": "order dispatch hua ya nahi",
+    "intent": "TRACK",
+    "entities": []
+  },
+  {
+    "id": "090",
+    "query": "shipment tracking id update bata do",
+    "intent": "TRACK",
+    "entities": []
+  },
+  {
+    "id": "091",
+    "query": "Casio watch return karni hai strap toot gaya",
+    "intent": "RETURN",
+    "entities": [
+      {"text":"watch","type":"PRODUCT"}
+    ]
+  },
+  {
+    "id": "092",
+    "query": "toaster wapas karna hai heat nahi ho raha",
+    "intent": "RETURN",
+    "entities": [
+      {"text":"toaster","type":"PRODUCT"}
+    ]
+  },
+  {
+    "id": "093",
+    "query": "Campus aur Bata shoes mein kaunsa durable hai",
+    "intent": "COMPARE",
+    "entities": [
+      {"text":"Campus","type":"BRAND"},
+      {"text":"Bata","type":"BRAND"},
+      {"text":"shoes","type":"PRODUCT"}
+    ]
+  },
+  {
+    "id": "094",
+    "query": "Honor aur Samsung tablet mein kaunsa better hai",
+    "intent": "COMPARE",
+    "entities": [
+      {"text":"Honor","type":"BRAND"},
+      {"text":"Samsung","type":"BRAND"},
+      {"text":"tablet","type":"PRODUCT"}
+    ]
+  },
+  {
+    "id": "095",
+    "query": "Logitech aur HP keyboard mein kaunsa accha hai",
+    "intent": "COMPARE",
+    "entities": [
+      {"text":"Logitech","type":"BRAND"},
+      {"text":"HP","type":"BRAND"},
+      {"text":"keyboard","type":"PRODUCT"}
+    ]
+  },
+  {
+    "id": "096",
+    "query": "Fossil wallet do hazaar se chaar hazaar tak dikhao",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Fossil","type":"BRAND"},
+      {"text":"wallet","type":"PRODUCT"},
+      {"text":"do hazaar se chaar hazaar tak","type":"PRICE_RANGE"}
+    ]
+  },
+  {
+    "id": "097",
+    "query": "Jockey track pants size L ek hazaar se do hazaar tak show karo",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Jockey","type":"BRAND"},
+      {"text":"track pants","type":"PRODUCT"},
+      {"text":"size L","type":"SIZE"},
+      {"text":"ek hazaar se do hazaar tak","type":"PRICE_RANGE"}
+    ]
+  },
+  {
+    "id": "098",
+    "query": "LG air fryer paanch hazaar se aath hazaar tak milega",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"LG","type":"BRAND"},
+      {"text":"air fryer","type":"PRODUCT"},
+      {"text":"paanch hazaar se aath hazaar tak","type":"PRICE_RANGE"}
+    ]
+  },
+  {
+    "id": "099",
+    "query": "Nothing phone das hazaar se pandrah hazaar tak bata do",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Nothing","type":"BRAND"},
+      {"text":"phone","type":"PRODUCT"},
+      {"text":"das hazaar se pandrah hazaar tak","type":"PRICE_RANGE"}
+    ]
+  },
+  {
+    "id": "100",
+    "query": "Liberty slippers size 9 ek hazaar se do hazaar tak dikhao",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Liberty","type":"BRAND"},
+      {"text":"slippers","type":"PRODUCT"},
+      {"text":"size 9","type":"SIZE"},
+      {"text":"ek hazaar se do hazaar tak","type":"PRICE_RANGE"}
+    ]
+  },
+  {
+    "id": "101",
+    "query": "Cello casserole kal tak delivery chahiye",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Cello","type":"BRAND"},
+      {"text":"casserole","type":"PRODUCT"},
+      {"text":"kal tak delivery","type":"DELIVERY_CONSTRAINT"}
+    ]
+  },
+  {
+    "id": "102",
+    "query": "Sony headphones teen hazaar se paanch hazaar tak show karo",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Sony","type":"BRAND"},
+      {"text":"headphones","type":"PRODUCT"},
+      {"text":"teen hazaar se paanch hazaar tak","type":"PRICE_RANGE"}
+    ]
+  },
+  {
+    "id": "103",
+    "query": "Safari backpack do hazaar se chaar hazaar tak lena hai",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Safari","type":"BRAND"},
+      {"text":"backpack","type":"PRODUCT"},
+      {"text":"do hazaar se chaar hazaar tak","type":"PRICE_RANGE"}
+    ]
+  },
+  {
+    "id": "104",
+    "query": "Raymond trouser size 34 do hazaar se teen hazaar tak dikhao",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Raymond","type":"BRAND"},
+      {"text":"trouser","type":"PRODUCT"},
+      {"text":"size 34","type":"SIZE"},
+      {"text":"do hazaar se teen hazaar tak","type":"PRICE_RANGE"}
+    ]
+  },
+  {
+    "id": "105",
+    "query": "Borosil glass set fast delivery ke saath milega",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Borosil","type":"BRAND"},
+      {"text":"glass set","type":"PRODUCT"},
+      {"text":"fast delivery","type":"DELIVERY_CONSTRAINT"}
+    ]
+  },
+  {
+    "id": "106",
+    "query": "Canon camera bees hazaar se pachis hazaar tak bata do",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Canon","type":"BRAND"},
+      {"text":"camera","type":"PRODUCT"},
+      {"text":"bees hazaar se pachis hazaar tak","type":"PRICE_RANGE"}
+    ]
+  },
+  {
+    "id": "107",
+    "query": "Wrogn hoodie size XL do hazaar se chaar hazaar tak dikhao",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Wrogn","type":"BRAND"},
+      {"text":"hoodie","type":"PRODUCT"},
+      {"text":"size XL","type":"SIZE"},
+      {"text":"do hazaar se chaar hazaar tak","type":"PRICE_RANGE"}
+    ]
+  },
+  {
+    "id": "108",
+    "query": "Lenovo monitor das hazaar se pandrah hazaar tak show karo",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Lenovo","type":"BRAND"},
+      {"text":"monitor","type":"PRODUCT"},
+      {"text":"das hazaar se pandrah hazaar tak","type":"PRICE_RANGE"}
+    ]
+  },
+  {
+    "id": "109",
+    "query": "Pigeon induction cooktop teen hazaar se paanch hazaar tak milega",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Pigeon","type":"BRAND"},
+      {"text":"induction cooktop","type":"PRODUCT"},
+      {"text":"teen hazaar se paanch hazaar tak","type":"PRICE_RANGE"}
+    ]
+  },
+  {
+    "id": "110",
+    "query": "Oxford dictionary kal subah tak delivery chahiye",
+    "intent": "SEARCH",
+    "entities": [
+      {"text":"Oxford dictionary","type":"PRODUCT"},
+      {"text":"kal subah tak delivery","type":"DELIVERY_CONSTRAINT"}
+    ]
+  },
+  {
+    "id": "111",
+    "query": "Nothing phone order kar do",
+    "intent": "BUY",
+    "entities": [
+      {"text":"Nothing","type":"BRAND"},
+      {"text":"phone","type":"PRODUCT"}
+    ]
+  },
+  {
+    "id": "112",
+    "query": "Sony headphones lena hai",
+    "intent": "BUY",
+    "entities": [
+      {"text":"Sony","type":"BRAND"},
+      {"text":"headphones","type":"PRODUCT"}
+    ]
+  },
+  {
+    "id": "113",
+    "query": "Canon camera purchase karna hai",
+    "intent": "BUY",
+    "entities": [
+      {"text":"Canon","type":"BRAND"},
+      {"text":"camera","type":"PRODUCT"}
+    ]
+  },
+  {
+    "id": "114",
+    "query": "Safari backpack abhi order kar do",
+    "intent": "BUY",
+    "entities": [
+      {"text":"Safari","type":"BRAND"},
+      {"text":"backpack","type":"PRODUCT"}
+    ]
+  },
+  {
+    "id": "115",
+    "query": "Wrogn hoodie buy karni hai",
+    "intent": "BUY",
+    "entities": [
+      {"text":"Wrogn","type":"BRAND"},
+      {"text":"hoodie","type":"PRODUCT"}
+    ]
+  },
+  {
+    "id": "116",
+    "query": "parcel nearest hub tak pahunch gaya kya",
+    "intent": "TRACK",
+    "entities": []
+  },
+  {
+    "id": "117",
+    "query": "mera order kab dispatch hua tha",
+    "intent": "TRACK",
+    "entities": []
+  },
+  {
+    "id": "118",
+    "query": "delivery reschedule hui kya",
+    "intent": "TRACK",
+    "entities": []
+  },
+  {
+    "id": "119",
+    "query": "shipment abhi kis state mein hai",
+    "intent": "TRACK",
+    "entities": []
+  },
+  {
+    "id": "120",
+    "query": "tracking details bata do",
+    "intent": "TRACK",
+    "entities": []
+  },
+  {
+    "id": "121",
+    "query": "air fryer return karna hai damage nikla",
+    "intent": "RETURN",
+    "entities": [
+      {"text":"air fryer","type":"PRODUCT"}
+    ]
+  },
+  {
+    "id": "122",
+    "query": "monitor replacement chahiye screen flicker kar rahi hai",
+    "intent": "RETURN",
+    "entities": [
+      {"text":"monitor","type":"PRODUCT"}
+    ]
+  },
+  {
+    "id": "123",
+    "query": "Sony aur boAt headphones mein sound better kiska hai",
+    "intent": "COMPARE",
+    "entities": [
+      {"text":"Sony","type":"BRAND"},
+      {"text":"boAt","type":"BRAND"},
+      {"text":"headphones","type":"PRODUCT"},
+      {"text":"sound","type":"ATTRIBUTE"}
+    ]
+  },
+  {
+    "id": "124",
+    "query": "Canon aur Nikon camera mein photo quality better hai",
+    "intent": "COMPARE",
+    "entities": [
+      {"text":"Canon","type":"BRAND"},
+      {"text":"Nikon","type":"BRAND"},
+      {"text":"camera","type":"PRODUCT"},
+      {"text":"photo quality","type":"ATTRIBUTE"}
+    ]
+  },
+  {
+    "id": "125",
+    "query": "Safari aur Skybags backpack mein kaunsa zyada durable hai",
+    "intent": "COMPARE",
+    "entities": [
+      {"text":"Safari","type":"BRAND"},
+      {"text":"Skybags","type":"BRAND"},
+      {"text":"backpack","type":"PRODUCT"},
+      {"text":"durable","type":"ATTRIBUTE"}
+    ]
+  }  
 ]
